@@ -1,0 +1,262 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .hero-section{
+    padding-bottom: 100px;
+    padding-right: 25px;
+    padding-left: 25px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+  .navbar{
+    margin-bottom: 100px;
+    background-color: transparent;
+  }
+
+  .logo{
+    cursor: pointer;
+  }
+
+  .nav-menu{
+    position: relative;
+    display: flex;
+    justify-content: right;
+    bottom: 40px;
+    margin-right: 20px;
+    gap: 25px;
+  }
+  
+  .menu-link{
+    position: relative;
+    text-decoration: none;
+    color: #202020;
+    text-align: left;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+  }
+
+  .contact{
+    width: 80px;
+    height: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 6px;
+    background-color: #5528ff;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  h1{
+    font-size: 38px;
+    line-height: 44px;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  .about{
+    max-width: 640px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    line-height: 51.48px;
+    line-height: 140%;
+    color: #4f4f4f;
+  }
+
+  .contact-button{
+    padding: 17px 40px;
+    border-radius: 5px;
+    background-color: #5528ff;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  h4 {
+    text-align: left;
+    position: relative;
+    font-size: 13px;
+    font-weight: 300;
+    color: #c2c2c2;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 20px;
+    }
+
+  h4:before, 
+  h4:after {
+    background-color: #c2c2c2;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+  }
+  
+  h4:before {
+    right: 0.3em;
+    width: 50px;
+  }
+  
+  h4:after {
+    left: 0.3em;
+    width: 100%;
+  }
+
+  .service-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+    margin-left: 15%;
+  }
+
+  .service{
+    position: relative;
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 70px
+    }
+
+    .service-icon{
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      left: 1px;
+      top: 0px;
+      padding-top: 24px;
+    }
+
+    h3{
+      display: block;
+      line-height: 30px;
+      margin-bottom: 10px;
+    }
+
+    .sub-head{
+    margin-top: 0px;
+    font-size: 24px;
+    font-weight: 500;
+    }
+
+    .paragraph{
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: #b2b2b2;
+    }
+    
+    .client-section{
+      display: grid;
+      grid-template-columns:1fr 1fr 1fr 1fr;
+      width: 80%;
+      margin: 0 auto;
+      margin-left: 12%;
+      margin-top: 5%;
+      padding-top: 40px;
+      padding-bottom: 40px
+    }
+
+  .Images {
+    max-width: 80%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 40px;
+    padding-left: 30px;
+    align-content: space-between;
+    }
+
+    .team-section{
+      display: grid;
+      grid-template-columns:2fr 2fr 2fr;
+      width: 80%;
+      margin: 0 auto;
+      margin-left: 18%;
+    }
+
+    .team-img{
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      left: -50px;
+      top: 5px;
+      }
+
+    .team-member{
+      position: relative;
+      width: 50%;
+      display: inline-block;
+      margin-bottom: 35%;
+      padding-right: 30px;
+      padding-left: 70px
+    }
+
+  .name{
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .position{
+    color: #b2b2b2;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+  }
+
+  .details{
+    padding-top: 25px
+    }
+
+  .footer{
+    padding: 16px 25px;
+    background-color: #f7f7f7;
+     }
+
+     footer{
+      width: 80%;
+      margin: 0 auto; 
+      margin-left: 13%;
+      margin-top: 25px;
+     }
+
+     .links{
+      position: relative;
+      display: flex;
+      justify-content: right;
+      bottom: 40px;
+      margin-right: 20px;
+      gap: 25px;
+     }
+
+     .dark-mode {
+      background: #001024;
+      color: #fafafa;
+     }
+
+     .dark-mode .nav-menu .menu-link{
+      background-color: #001024;
+      color: #fff;
+     }
+
+     .menu-link:hover {
+     cursor: pointer;
+     color: #f1356d;
+     transform: scale(1.1);
+     }
+
+     
+     
