@@ -8,7 +8,7 @@ html {
     line-height: 20px;
   }
 
-  .hero-section{
+  .hero-section {
     padding-bottom: 100px;
     padding-right: 25px;
     padding-left: 25px;
@@ -18,14 +18,14 @@ html {
 
   .navbar{
     margin-bottom: 100px;
-    background-color: transparent;
+    /* background-color: transparent; */
   }
 
   .logo{
     cursor: pointer;
   }
 
-  .nav-menu{
+  .nav-menu {
     position: relative;
     display: flex;
     justify-content: right;
@@ -34,7 +34,7 @@ html {
     gap: 25px;
   }
   
-  .menu-link{
+  .menu-link {
     position: relative;
     text-decoration: none;
     color: #202020;
@@ -45,7 +45,12 @@ html {
     line-height: 100%;
   }
 
-  .contact{
+  .brightness {
+    background-color: #fff;
+    color: #fff;
+  }
+  
+  .contact {
     width: 80px;
     height: 15px;
     padding-top: 3px;
@@ -57,14 +62,14 @@ html {
     text-align: center;
   }
 
-  h1{
+  h1 {
     font-size: 38px;
     line-height: 44px;
     margin-top: 20px;
     font-weight: bold;
   }
 
-  .about{
+  .about {
     max-width: 640px;
     margin-bottom: 50px;
     font-size: 20px;
@@ -73,7 +78,7 @@ html {
     color: #4f4f4f;
   }
 
-  .contact-button{
+  .contact-button {
     padding: 17px 40px;
     border-radius: 5px;
     background-color: #5528ff;
@@ -122,7 +127,7 @@ html {
     margin-left: 15%;
   }
 
-  .service{
+  .service {
     position: relative;
     width: 50%;
     display: inline-block;
@@ -131,7 +136,7 @@ html {
     padding-left: 70px
     }
 
-    .service-icon{
+    .service-icon {
       width: 40px;
       height: 40px;
       position: absolute;
@@ -140,25 +145,25 @@ html {
       padding-top: 24px;
     }
 
-    h3{
+    h3 {
       display: block;
       line-height: 30px;
       margin-bottom: 10px;
     }
 
-    .sub-head{
+    .sub-head {
     margin-top: 0px;
     font-size: 24px;
     font-weight: 500;
     }
 
-    .paragraph{
+    .paragraph {
       margin-top: 0;
       margin-bottom: 10px;
       color: #b2b2b2;
     }
     
-    .client-section{
+    .client-section {
       display: grid;
       grid-template-columns:1fr 1fr 1fr 1fr;
       width: 80%;
@@ -169,7 +174,7 @@ html {
       padding-bottom: 40px
     }
 
-  .Images {
+  .images {
     max-width: 80%;
     display: inline-block;
     vertical-align: middle;
@@ -178,7 +183,7 @@ html {
     align-content: space-between;
     }
 
-    .team-section{
+    .team-section {
       display: grid;
       grid-template-columns:2fr 2fr 2fr;
       width: 80%;
@@ -186,7 +191,7 @@ html {
       margin-left: 18%;
     }
 
-    .team-img{
+    .team-img {
       width: 100px;
       height: 100px;
       position: absolute;
@@ -194,7 +199,7 @@ html {
       top: 5px;
       }
 
-    .team-member{
+    .team-member {
       position: relative;
       width: 50%;
       display: inline-block;
@@ -203,37 +208,37 @@ html {
       padding-left: 70px
     }
 
-  .name{
+  .name {
     margin-top: 0px;
     margin-bottom: 3px;
     font-size: 20px;
     line-height: 28px;
   }
 
-  .position{
+  .position {
     color: #b2b2b2;
     font-size: 14px;
     line-height: 19px;
     font-weight: 400;
   }
 
-  .details{
+  .details {
     padding-top: 25px
     }
 
-  .footer{
+  .footer {
     padding: 16px 25px;
     background-color: #f7f7f7;
      }
 
-     footer{
+     footer {
       width: 80%;
       margin: 0 auto; 
       margin-left: 13%;
       margin-top: 25px;
      }
 
-     .links{
+     .links {
       position: relative;
       display: flex;
       justify-content: right;
@@ -247,7 +252,7 @@ html {
       color: #fafafa;
      }
 
-     .dark-mode .nav-menu .menu-link{
+     .dark-mode .nav-menu .menu-link {
       background-color: #001024;
       color: #fff;
      }
